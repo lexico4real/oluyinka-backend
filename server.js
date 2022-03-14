@@ -43,7 +43,7 @@ router.post('/contact', cors(), (req, res) => {
     from: name,
     to: 'lexico4real@gmail.com',
     subject: 'Contact Form Submission',
-    html: `<p>Name: ${name}</p>s
+    html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
            <p>Phone: ${phone}</p>
            <p>Subject: ${subject}</p>
